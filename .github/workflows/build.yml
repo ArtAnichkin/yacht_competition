@@ -35,7 +35,7 @@ jobs:
 
       - name: Build executable
         run: |
-          pyinstaller --onefile your_script.py
+          pyinstaller --onefile main.py
         # Для macOS и Linux можно оставить как есть
         # Для Windows можно указать .exe: 
         # pyinstaller --onefile --name your_script.exe your_script.py
